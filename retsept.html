@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lemmikretsept</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 550px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 550px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Minu lemmikroa retsept</h2>
+</header>
+
+<section>
+  <nav>
+      <img src="spagetid/spagetid.jpg" style="width:265px;height:260px;"/>
+  </nav>
+  
+  <article>
+    <h1>Spagetid juustu-peekonikastmega</h1>
+    <h3>Koostisosad:</h3>
+    <table>
+    <ol>500 g spagette vm makarone </ol>
+    <ol>170 g suitsupeekonit</ol>
+    <ol>3 hakitud küüslauguküünt</ol>
+    <ol>2 muna</ol>
+    <ol>2 dl vahukoort või kohvikoort</ol>
+    <ol>soola ja musta pipart</ol>
+    <ol>2 dl riivitud juustu</ol>
+    <ol>0.5 dl hakitud peterselli</ol>
+    </table>
+    <h3>Valmistamine:</h3>
+    <p>Keeda spagetid (või muud makaronid) vastavalt pakendi juhistele 'al dente'. Kurna ja pane potti tagasi. 
+
+            Makaronide keetmise ajal valmista kaste: pruunista tükeldatud peekon pannil, vala liigne rasv minema. Lisa hakitud küüslauk ja kuumuta veel minut aega. 
+            
+            Sega munad rõõsa koorega, maitsesta soola-pipraga.
+            
+            Vala kurnatud kuumadele spagettidele muna-kooresegu, riivitud juust, petersell ja peekon. Kuumuta veidi pidevalt segades.
+            
+            Serveeri kohe.</p>
+  </article>
+</section>
+
+<footer>
+    <h3>
+            <li><a href="https://nami-nami.ee/retsept/1929/spagetid_juustu_peekonikastmega">Retsepti Allikas</a></li>
+            <hr>
+            <img src="copyright/copyright.png" style="width:25px;height:25px;"/>
+    </h3>
+</footer>
+
+</body>
+</html>
